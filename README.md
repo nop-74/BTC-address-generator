@@ -7,7 +7,11 @@ Python 3.8+
 
 Модули Python:
 
-    pip install ecdsa base58 aiofiles pyfiglet termcolor
+- pip install ecdsa
+- pip install base58 
+- pip install aiofiles 
+- pip install pyfiglet 
+- pip install termcolor
 
 Файлы:
 
@@ -80,5 +84,5 @@ The program saves the state (number of generated addresses) every 100,000 addres
 Real-time statistics are shown, including the total number of generated addresses and generation speed.
 The FoundBTC.txt file will contain addresses found in the list and their corresponding private keys in WIF format.
 
-    To support the author: TFbR9gXb5r6pcALasjX1FKBArbKc4xBjY8
+   
 
