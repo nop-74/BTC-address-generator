@@ -45,44 +45,68 @@ Python 3.8+
     Для поддержки автора: TFbR9gXb5r6pcALasjX1FKBArbKc4xBjY8
 --------------------------------------------------------------------------------------------------------------------------
 ![btc checker](https://github.com/user-attachments/assets/03bc3630-9c96-4567-94b4-6abf9518fd13)
-This program is designed to fasters generate Bitcoin addresses and check them against a list. The program supports multi-threaded processing and offers two address generation methods: high entropy and low entropy.
+Эта программа предназначена для быстрой генерации биткоин-адресов и проверки их по списку. Программа поддерживает многопоточную обработку и предлагает два метода генерации адресов: с высокой энтропией и с низкой энтропией.
 
-Requirements:
-The following dependencies are required for the program to run:
+Требования:
+Для запуска программы требуются следующие зависимости:
 Python 3.8+
 
-Python modules:
+Модули Python:
 
-    pip install ecdsa base58 aiofiles pyfiglet termcolor
+- pip install ecdsa
+- pip install base58 
+- pip install aiofiles 
+- pip install pyfiglet 
+- pip install termcolor
 
-Files:
+Файлы:
 
-    RichBTC.txt — a file containing a list of rich BTC addresses (one per line).
-    FoundBTC.txt — a file where found matches of addresses and private keys will be written.
-    state.txt — a file to store the program's current state (the number of generated addresses).
+    RichBTC.txt — файл, содержащий список расширенных BTC-адресов (по одному в строке).
+    FoundBTC.txt — файл, в который будут записаны найденные совпадения адресов и закрытых ключей.
+    state.txt — файл для хранения текущего состояния программы (количества сгенерированных адресов).
 
-How to Run:
+как запустить:
 
-    Download or clone the repository with the program.
+    Загрузите или клонируйте репозиторий с помощью программы.
     git clone https://github.com/yourusername/repository-name.git
     
-Prepare the RichBTC.txt file containing a list of Bitcoin addresses.
+Подготовьте RichBTC.txt файл, содержащий список биткоин-адресов.
 
-Run the program:
+Запустите программу:
 
     python script_name.py
     
-You will be prompted to select the generation method:
+Вам будет предложено выбрать метод генерации:
 
-    1 — High entropy (32 bytes for key generation).
-    2 — Low entropy (16 bytes for key generation).
+    1 — Высокая энтропия (32 байта для генерации ключа).
+    2 — Низкая энтропия (16 байт для генерации ключа).
     
-The program will automatically start multi-threaded address generation and checking for each address.
+Программа автоматически запустит многопоточную генерацию адресов и проверку для каждого адреса.
 
-Notes:
-The program saves the state (number of generated addresses) every 100,000 addresses. If interrupted, it will resume from where it left off.
-Real-time statistics are shown, including the total number of generated addresses and generation speed.
-The FoundBTC.txt file will contain addresses found in the list and their corresponding private keys in WIF format.
+Записи:
+Программа сохраняет состояние (количество сгенерированных адресов) каждые 100 000 адресов. В случае прерывания программа возобновит работу с того места, где она была прервана.
+Отображается статистика в режиме реального времени, включая общее количество сгенерированных адресов и скорость генерации.
+Тот самый FoundBTC.txt файл будет содержать адреса, найденные в списке, и соответствующие им закрытые ключи в формате WIF.
 
    
+![Alt text](https://github.com/nop-74/BTC-address-generator/blob/main/Дебетовая%20карта%20от%20банка%20«ВТБ.png)
+##  [ВТБ 💳 Дебетовая карта МИР заказать](https://clck.ru/3QepVZ)
+##  [ВТБ 💳 Платежный стикер заказать ](https://clck.ru/3QepQ3)
+##  [ВТБ 💳 Дебетовая карта МИР «Синий леопард» заказать](https://clck.ru/3Qeoqv)
+##  [ВТБ 💳 Дебетовая карта МИР с Яндекс Go  заказать](https://clck.ru/3QepbK)
+##  [ВТБ 💳 Дебетовая карта МИР «Русские сказки»  заказать](https://clck.ru/3QepwR)
+##  [ВыБРАТЬ ДРУГИЕ ПРЕДЛОЖЕНИЯ С РАЗНЫХ БАНКОВ](https://t.me/vtb0244)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
